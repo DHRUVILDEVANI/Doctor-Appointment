@@ -21,7 +21,7 @@ app.use(express.json())
 
 // app.use(cors())
 app.use(cors({
-  origin: ["https://doctor-appointment-bt3r.onrender.com",'http://localhost:5173','http://localhost:5174'],
+  origin: ["https://doctor-appointment-bt3r.onrender.com",'http://localhost:5173','http://localhost:5174','https://doctor-admin-wkcc.onrender.com'],
   credentials: true
 }));
 
